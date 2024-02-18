@@ -3,7 +3,7 @@ let textInput = document.querySelector('input').value;
 var outInput = document.getElementById('areaSaida');
 
 function avisoTextoInvalido() {
-    alert("Digite apenas letras minúsculas e sem acento!\nPor favor, NÃO digite numerais (apenas por extenso) caracteres especiais, simbolos ou letras maiúsculas.");
+    alert("Digite apenas letras minúsculas e sem acento!\nPor favor, NÃO digite numerais (escreva por extenso) caracteres especiais, simbolos ou letras maiúsculas.");
     textInput = document.querySelector('input');
     outInput = document.querySelector('textarea');
     textInput.value = '';
