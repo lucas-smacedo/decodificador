@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root{
+    --font-padrao: 'inter', sans-serif;
+    overflow: visible;
+
+}
+body {
+    background-color: #F3F5FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviso{
+    font-family: var(--font-padrao);
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px;
+}
+
+.container{
+    display: inline-flex;
+    justify-content:center;
+    padding: 10%;
+    gap: 15px;
+
+}
+
+.container__sistema{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 25px 25px 25px 25px; /* Apply negative top and left margins to truly center the element */
+}
+
+.container__entrada__texto{
+    font-family: var(--font-padrao);
+    width: 100%;
+    padding: 5%;
+    border: 1px;
+    font-size: 32px;
+    justify-content: space-between;
+    display: block;
+    flex-direction: row;
+}
+
+.container__botoes_criptografia{
+    font-family: var(--font-padrao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.container__botoes__criptografar{
+    font-family: var(--font-padrao);
+    color: white;
+    width: Fixed 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 15px;
+    background-color: #0A3871;
+
+
+}
+
+.container__botoes_descriptografar{
+    font-family: var(--font-padrao);
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: Fixed 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    border-color: #0A3871;
+
+}
+
+
+.container__digiteaqui{
+    font-family: var(--font-padrao);
+    font-size: 30px;
+    font-style:inherit;
+
+}
+
+.container__resultado{
+    font-family: var(--font-padrao);
+    font-size: 30px;
+    font-style:inherit;
+}
+
+.container__botoes_texto{
+    font-family: var(--font-padrao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+
+.botao__copiar{
+    font-family: var(--font-padrao);
+    background-color: #0A3871;
+    color: white;
+    width: Fixed 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botao__limpar{
+    font-family: var(--font-padrao);
+    font-family: var(--font-padrao);
+    width: Fixed 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    border-color: #0A3871;
+    flex-direction: row;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
